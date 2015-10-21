@@ -1,0 +1,5 @@
+bitsandpieces:
+  container_name: bitsandpieces
+  image: learninglayers/bitsandpieces:4.0.1
+  env_file:
+    - common.env
