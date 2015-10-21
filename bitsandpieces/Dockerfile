@@ -14,7 +14,7 @@ sed -i "s#SSS_HOST_REST#${BASE_URL}/sss#g" /var/www/js/config/config.json
 sed -i "s#OIDC_AUTHORIZATION_URL#${BASE_URL}/o/oauth2/authorize#g" /var/www/js/config/config.json
 sed -i "s#OIDC_CLIENT_ID#NOT_IMPLEMENTED_YET#g" /var/www/js/config/config.json
 sed -i "s#AFFECT_URL##g" /var/www/js/config/config.json
-sed -i "s#HELP_URL#${BASE_URL}/sss#g" /var/www/js/config/config.json
+#sed -i "s#HELP_URL#${BASE_URL}/sss#g" /var/www/js/config/config.json
 sed -i "s#DISCUSSION_TOOL_URL#${BASE_URL}/discussiontool#g" /var/www/js/config/config.json
 
 EXPOSE 80
