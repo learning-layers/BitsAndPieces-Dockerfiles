@@ -2,4 +2,5 @@
 
 The Dockerfiles for BitsAndPieces.
 
-**This is not working yet!**
+**!!!Configuration replacements are not working yet!!!**
+
