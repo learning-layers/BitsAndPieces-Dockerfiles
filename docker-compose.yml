@@ -1,5 +1,3 @@
 bitsandpieces:
   container_name: bitsandpieces
   image: learninglayers/bitsandpieces:4.0.2
-  ports:
-    - 80
