@@ -1,3 +1,8 @@
 bitsandpieces:
   container_name: bitsandpieces
   image: learninglayers/bitsandpieces:4.0.5
+  env_file:
+    - common.env
+    - bitsandpieces.env
+  action:
+    - create_oidcclients: [bitsandpieces.env]
