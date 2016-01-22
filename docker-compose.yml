@@ -4,5 +4,5 @@ bitsandpieces:
   env_file:
     - common.env
     - bitsandpieces.env
-  action:
+  actions:
     - create_oidcclients: [bitsandpieces.env]
