@@ -1,7 +1,7 @@
 {
   "application_type": "web",
   "client_name": "BitsAndPieces",
-  "client_uri": null,
+  "client_uri": LAYERS_API_URIbitsandpieces,
   "logo_uri": null,
   "token_endpoint_auth_method": "client_secret_basic",
   "redirect_uris": [
