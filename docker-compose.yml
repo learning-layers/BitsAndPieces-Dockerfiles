@@ -1,6 +1,6 @@
 bitsandpieces:
   container_name: bitsandpieces
-  image: learninglayers/bitsandpieces:4.4.2
+  image: learninglayers/bitsandpieces:4.4.3
   ports:
     - 80
   env_file:
