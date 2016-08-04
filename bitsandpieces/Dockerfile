@@ -12,7 +12,7 @@ RUN apt-get update \
 WORKDIR /opt
 
 # Download BitsAndPieces
-RUN wget https://github.com/learning-layers/BitsAndPieces/archive/v4.4.3.zip \
+RUN wget https://github.com/learning-layers/BitsAndPieces/archive/v4.4.4.zip \
   && unzip v*.zip \
   && cp -r BitsAndPieces-*/* /usr/share/nginx/html \
   && rm *.zip \
